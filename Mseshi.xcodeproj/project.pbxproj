@@ -13,6 +13,7 @@
 		685134E92A1CC19C00FC80CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685134E72A1CC19C00FC80CB /* Main.storyboard */; };
 		685134EB2A1CC19E00FC80CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685134EA2A1CC19E00FC80CB /* Assets.xcassets */; };
 		685134EE2A1CC19E00FC80CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685134EC2A1CC19E00FC80CB /* LaunchScreen.storyboard */; };
+		685134F62A1CC2E600FC80CB /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685134F52A1CC2E600FC80CB /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		685134EA2A1CC19E00FC80CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		685134ED2A1CC19E00FC80CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		685134EF2A1CC19E00FC80CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685134F52A1CC2E600FC80CB /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				685134E12A1CC19C00FC80CB /* AppDelegate.swift */,
 				685134E32A1CC19C00FC80CB /* SceneDelegate.swift */,
 				685134E52A1CC19C00FC80CB /* ViewController.swift */,
+				685134F52A1CC2E600FC80CB /* CustomCell.swift */,
 				685134E72A1CC19C00FC80CB /* Main.storyboard */,
 				685134EA2A1CC19E00FC80CB /* Assets.xcassets */,
 				685134EC2A1CC19E00FC80CB /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				685134E62A1CC19C00FC80CB /* ViewController.swift in Sources */,
 				685134E22A1CC19C00FC80CB /* AppDelegate.swift in Sources */,
+				685134F62A1CC2E600FC80CB /* CustomCell.swift in Sources */,
 				685134E42A1CC19C00FC80CB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
